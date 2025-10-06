@@ -104,6 +104,7 @@ jobs:
           cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libclient_hl.so ${backup_libs}
           cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libserver_hl.so ${backup_libs}
           cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libmenu_hl.so ${backup_libs}
+          cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libtf15client*so ${backup_libs}
           cp ${backup_libs}/* ${build_libs}/
           ls ${build_libs}
           # build Source only
