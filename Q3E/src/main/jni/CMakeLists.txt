@@ -205,6 +205,7 @@ endif()
 if(GAME_XASH3D) # xash3d-fwgs | https://github.com/FWGS/xash3d-fwgs/commit/74b196d2c362ea195967be6f139faeed18795a53
     message(STATUS "Build Xash3D")
     add_subdirectory(xash3d) # Xash3D
+	add_subdirectory(tf15-client)
 endif()
 
 if(GAME_SOURCE) # 29985681a18508e78dc79ad863952f830be237b6 | Dec 30, 2023 | Merge pull request #312 from AruMoon/add-master-server Add new master server
