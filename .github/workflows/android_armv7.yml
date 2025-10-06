@@ -85,6 +85,7 @@ jobs:
         cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libclient_hl.so Q3E/libs/${arch}
         cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libserver_hl.so Q3E/libs/${arch}
         cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libmenu_hl.so Q3E/libs/${arch}
+        cp -f Q3E/build/intermediates/library_jni/release/jni/${arch}/libtf15client.so Q3E/libs/${arch}
         ls Q3E/libs/${arch}
         # build Source only
         echo "Clean builds"
